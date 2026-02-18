@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    width: 299px;
+    justify-content: space-between;
+    margin-right: 708px;
+    margin-left: 50px;
+}
+
+.container {
+    display: flex;
+    height: 64px;
+    width: 1304px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo {
+    display: flex;      
+    width: 76px;
+    height: 23px;   
+}
+
+button {
+    display: flex;
+    justify-content: flex-end;
+    border: 0px;    
+}
